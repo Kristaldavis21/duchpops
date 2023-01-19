@@ -31,35 +31,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
@@ -94,7 +65,10 @@ Electron (HTML/CSS/JavaScript apps for the desktop
 
 What is DuchPopsDuchPops is a homemade popsicle company based in Bermuda. They have been in business for seven years and currently does not have a website. This project is a prototype for an e-commerce website. The main objective is to provide a way for consumers to view current products, add to bag, *check-out via cart, book ept.js via a clean sleek optimal viewing site.
 
-RoadmapM.V.P.Provide the following:
+Roadmap
+M.V.P.
+
+Provide the following:
 Achieved functionality 
 Renders correct template with data
 Uses routes and route parameters 
@@ -102,10 +76,14 @@ Correctly structures routes to create readable, nested URL paths.
 Add to cart responsive.
 Calendly installation
 Database in progress
+
 Stretch Goals
 
 Provide the following:
--The ability to upload items into a cart modal-Complete finishing touches on the styling-Connect Backend
+-The ability to upload items into a cart modal
+-Complete finishing touches on the styling
+-Connect Backend
+
 Code Snippet
 
   const listCards = ProductInfo.map((product, index) => 
